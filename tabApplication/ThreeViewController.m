@@ -10,6 +10,7 @@
 #import "UHomeTest-Swift.h"
 #import "ViewController.h"
 #import "ScrollViewController.h"
+
 @interface ThreeViewController ()
 @end
 
@@ -42,7 +43,7 @@
     UIView *containerView = [[[NSBundle mainBundle] loadNibNamed:@"SlideImage" owner:self options:nil] lastObject];
     [self.scrollView  addSubview:containerView];
     UIButton *btn = [containerView viewWithTag:5];
-    [btn setTitle:@"test string" forState:UIControlStateNormal];
+    [btn setTitle:NSLocalizedString(@"aaa", @"dea") forState:UIControlStateNormal];
     
 }
 

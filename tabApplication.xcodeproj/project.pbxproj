@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31275E5F1D41BFA1004C6693 /* ThreeSlideView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31275E5E1D41BFA1004C6693 /* ThreeSlideView1.xib */; };
+		3129283A1D4B30F8006535B7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3129283C1D4B30F8006535B7 /* Localizable.strings */; };
 		312DC6C11D2CE495006B0C49 /* fiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312DC6C01D2CE495006B0C49 /* fiveViewController.m */; };
 		312DC6C41D2CE7CB006B0C49 /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 312DC6C31D2CE7CB006B0C49 /* ViewControllerA.m */; };
 		312DC6C71D2CE7DA006B0C49 /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 312DC6C61D2CE7DA006B0C49 /* ViewControllerB.m */; };
@@ -37,6 +38,8 @@
 /* Begin PBXFileReference section */
 		222DFCE7FE5C3EAD52B8ACC1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		31275E5E1D41BFA1004C6693 /* ThreeSlideView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeSlideView1.xib; sourceTree = "<group>"; };
+		3129283B1D4B30F8006535B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3129283D1D4B31BA006535B7 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		312DC6BF1D2CE495006B0C49 /* fiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fiveViewController.h; sourceTree = "<group>"; };
 		312DC6C01D2CE495006B0C49 /* fiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fiveViewController.m; sourceTree = "<group>"; };
 		312DC6C21D2CE7CB006B0C49 /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
@@ -129,6 +132,7 @@
 				316CF6131D1A432900CE4B10 /* NavViewController.h */,
 				316CF6141D1A432900CE4B10 /* NavViewController.m */,
 				312DC6BF1D2CE495006B0C49 /* fiveViewController.h */,
+				3129283C1D4B30F8006535B7 /* Localizable.strings */,
 				312DC6C01D2CE495006B0C49 /* fiveViewController.m */,
 				316CF60E1D1A3CE700CE4B10 /* ViewController.h */,
 				316CF60F1D1A3CE700CE4B10 /* ViewController.m */,
@@ -229,6 +233,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 316CF5BF1D1A38F200CE4B10;
 			productRefGroup = 316CF5C91D1A38F200CE4B10 /* Products */;
@@ -249,6 +254,7 @@
 				31275E5F1D41BFA1004C6693 /* ThreeSlideView1.xib in Resources */,
 				316CF5DE1D1A38F300CE4B10 /* LaunchScreen.storyboard in Resources */,
 				316CF5DB1D1A38F300CE4B10 /* Assets.xcassets in Resources */,
+				3129283A1D4B30F8006535B7 /* Localizable.strings in Resources */,
 				31FA8B811D40C00D0024BDA1 /* swiftViewController.xib in Resources */,
 				316DA6511D2E04B400F358F1 /* SlideImage.xib in Resources */,
 				316CF6121D1A3CE700CE4B10 /* ViewController.xib in Resources */,
@@ -318,6 +324,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		3129283C1D4B30F8006535B7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3129283B1D4B30F8006535B7 /* en */,
+				3129283D1D4B31BA006535B7 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		316CF5D71D1A38F300CE4B10 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -385,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
