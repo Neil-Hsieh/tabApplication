@@ -1,0 +1,16 @@
+PODS:
+  - CarbonKit (2.1.8)
+  - CustomIOSAlertView (0.9.3)
+  - SDAutoLayout (2.1.4)
+
+DEPENDENCIES:
+  - CarbonKit (~> 2.1)
+  - CustomIOSAlertView (~> 0.9.3)
+  - SDAutoLayout (~> 2.1.3)
+
+SPEC CHECKSUMS:
+  CarbonKit: 95d78a09889cc05e36537dd08ec5d73dd55edba4
+  CustomIOSAlertView: 94d2401e34fcfb0ac0134679d6947f5e251b0446
+  SDAutoLayout: 1b2926b193a63287f473dae426ed07861e21e271
+
+COCOAPODS: 0.38.2

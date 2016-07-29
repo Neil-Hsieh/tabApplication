@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11129.15" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ThreeViewController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="700" height="57"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="re6-wI-0DY">
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="click2:" destination="-1" eventType="touchDown" id="VxN-Yf-IQ6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bSd-0E-SMs">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="bSd-0E-SMs" secondAttribute="height" multiplier="46:57" id="VtU-wy-z4S"/>
+                    </constraints>
+                    <state key="normal" image="barBack"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bny-ng-IyL">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="GRG-iT-iYN"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="barBack"/>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WDX-9M-5fp">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="4Ar-Z6-jds"/>
+                    </constraints>
+                    <state key="normal" image="barBack"/>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="re6-wI-0DY" secondAttribute="trailing" constant="50" id="2xu-CR-06h"/>
+                <constraint firstItem="Bny-ng-IyL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="F7b-p5-N4R"/>
+                <constraint firstItem="Bny-ng-IyL" firstAttribute="leading" secondItem="WDX-9M-5fp" secondAttribute="trailing" constant="49" id="Mno-Cg-EgA"/>
+                <constraint firstAttribute="bottom" secondItem="re6-wI-0DY" secondAttribute="bottom" constant="11" id="Qam-kM-wNb"/>
+                <constraint firstAttribute="bottom" secondItem="bSd-0E-SMs" secondAttribute="bottom" id="VyJ-kW-y6p"/>
+                <constraint firstItem="bSd-0E-SMs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fRm-Iy-KAA"/>
+                <constraint firstItem="WDX-9M-5fp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hNs-v0-l0C"/>
+                <constraint firstItem="WDX-9M-5fp" firstAttribute="leading" secondItem="bSd-0E-SMs" secondAttribute="trailing" constant="40" id="oEd-LW-BSk"/>
+                <constraint firstItem="bSd-0E-SMs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="38" id="snA-5b-8v1"/>
+                <constraint firstItem="re6-wI-0DY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="utC-DI-nVW"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="206" y="-252.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="barBack" width="103" height="63"/>
+    </resources>
+</document>
